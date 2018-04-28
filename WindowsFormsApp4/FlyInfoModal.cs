@@ -63,7 +63,7 @@ namespace WindowsFormsApp4
         }
         private void Close(object sender, EventArgs e)
         {
-            Environment.Exit(1);
+            this.Close();
         }
     }
 }
