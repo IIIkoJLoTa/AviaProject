@@ -182,7 +182,6 @@ namespace WindowsFormsApp4
                 FlyInfoModal fl = new FlyInfoModal(FlyList);
                 fl.StartPosition = FormStartPosition.CenterParent;
                 fl.Show();
-                this.Hide();
             }
             //if (FlyList.Count > 0)
             //{
